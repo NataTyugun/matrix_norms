@@ -5,7 +5,7 @@
 #include <locale.h>
 #include <math.h>
 
-
+/*норма бесконечность*/
 static PyObject* infinity_norm(PyObject *self, PyObject *args){
     PyObject* list;
     int i, j, n, m;
