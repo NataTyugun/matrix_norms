@@ -32,7 +32,7 @@
 
 > Формула
 
-![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/d5e68c1c-cda0-4a9d-ba0b-e2c201fbd12c)
+![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/df391a44-e030-4fec-8bf3-d64546593e21)
 
 > Фрагмент программы с реализацией: 
 
@@ -45,11 +45,16 @@
 
 > Формула
 
-![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/5fe39900-2f0d-4a8a-a013-4fe7031b197b)
+![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/07967e4b-064c-4b39-be59-63fa2035d83a)
 
 > Фрагмент программы с реализацией:
 
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/cb5306d7-cf5c-4561-88e1-e91728095451)
+
+### Обусловленность
+> Формула
+
+![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/ed623718-6e39-4151-8a72-11b369dc59b6)
 
 
 
