@@ -17,7 +17,7 @@
 Первоя норма равна максимуму суммы модулей элементов в столбце;
 > Формула:
 
-![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/8818fdbf-9fab-4a32-b151-3206986b1392)
+![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/a5a7b6a4-b627-4e6c-a620-a999d4b91e21)
 
 > Фрагмент программы с реализацией:
 
@@ -35,7 +35,7 @@
 ## Норма бесконечность 
 > Формула
 
-![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/18c6aee8-165a-46f4-8399-03fbf47beba4)
+![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/5fe39900-2f0d-4a8a-a013-4fe7031b197b)
 
 > Фрагмент программы с реализацией:
 
