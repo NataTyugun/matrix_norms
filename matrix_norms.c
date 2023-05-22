@@ -47,25 +47,20 @@ static PyObject* first_norm(PyObject *self, PyObject *args){
     PyObject* list;
     int i, j, n, m;
 
-    /* преобразуем тип данных */
-    /* PyArg_ParseTuple - обработка аргументов функции и трасформация типы данных Python в типы данных C.
-    Первый агрумент PyObject, кортеж переданных функции аргументов,  второй - тип переменных в которые мы хотим преобразовать наши аргументы
-    ("O" - произвольный агрумент, то есть будет сохраняться объект Python (без какого-либо преобразования) в указателе объекта C). Далее идут сами
-    переменныке в которые мы сохраняем преобразованные значения. Также осуществляется проверка, корректно ли отработала функция. */
     if(!PyArg_ParseTuple(args,"O", &list)) {
-        return NULL; /* проверка */
+        return NULL;
     }
 
-    n = PyList_GET_SIZE(list); /* количество строк */
-    m = PyList_GET_SIZE(PySequence_Fast_GET_ITEM(list, 0)); /* количество столбцов */
+    n = PyList_GET_SIZE(list);
+    m = PyList_GET_SIZE(PySequence_Fast_GET_ITEM(list, 0));
 
     double sum = 0;
     double max = 0;
     double elem;
 
     for (i=0; i<m; i++ ){
-        for ( j=0; j<n; j++ ){ /* перебираем элементы в строке */
-            PyObject* tempi = PySequence_Fast_GET_ITEM(list, j);  /* перебираем строки */
+        for ( j=0; j<n; j++ ){
+            PyObject* tempi = PySequence_Fast_GET_ITEM(list, j);
             PyObject* tempj = PySequence_Fast_GET_ITEM(tempi, i);
             elem = PyFloat_AsDouble(tempj);
             sum += abs(elem);
@@ -83,24 +78,19 @@ static PyObject* euclidean_norm(PyObject *self, PyObject *args){
     PyObject* list;
     int i, j, n, m;
 
-    /* преобразуем тип данных */
-    /* PyArg_ParseTuple - обработка аргументов функции и трасформация типы данных Python в типы данных C.
-    Первый агрумент PyObject, кортеж переданных функции аргументов,  второй - тип переменных в которые мы хотим преобразовать наши аргументы
-    ("O" - произвольный агрумент, то есть будет сохраняться объект Python (без какого-либо преобразования) в указателе объекта C). Далее идут сами
-    переменныке в которые мы сохраняем преобразованные значения. Также осуществляется проверка, корректно ли отработала функция. */
     if(!PyArg_ParseTuple(args,"O", &list)) {
-        return NULL; /* проверка */
+        return NULL;
     }
 
-    n = PyList_GET_SIZE(list); /* количество строк */
-    m = PyList_GET_SIZE(PySequence_Fast_GET_ITEM(list, 0)); /* количество столбцов */
+    n = PyList_GET_SIZE(list);
+    m = PyList_GET_SIZE(PySequence_Fast_GET_ITEM(list, 0));
 
     double sum = 0;
     double elem;
 
     for (i=0; i<m; i++ ){
-        PyObject* tempi = PySequence_Fast_GET_ITEM(list, i);  /* перебираем строки */
-        for ( j=0; j<n; j++ ){ /* перебираем элементы в строке */
+        PyObject* tempi = PySequence_Fast_GET_ITEM(list, i);
+        for ( j=0; j<n; j++ ){
             PyObject* tempj = PySequence_Fast_GET_ITEM(tempi, j);
             elem = PyFloat_AsDouble(tempj);
             sum += (abs(elem) * abs(elem));
