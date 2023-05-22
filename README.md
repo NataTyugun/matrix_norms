@@ -11,9 +11,9 @@
 
 .......
 
-### Реализация
+## Реализация
 ****
-## Первая норма
+### Первая норма
 
 Первоя норма равна максимуму суммы модулей элементов в столбце;
 > Формула:
@@ -24,7 +24,7 @@
 
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/dbd83041-af45-461e-9af8-201f6b9d668a)
 
-## Вторая норма(Евклидова)
+### Вторая норма(Евклидова)
 > Формула
 
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/d5e68c1c-cda0-4a9d-ba0b-e2c201fbd12c)
@@ -33,7 +33,7 @@
 
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/4e042e7c-d51e-42c0-9af3-63ed58513f1b)
 
-## Норма бесконечность 
+### Норма бесконечность 
 > Формула
 
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/5fe39900-2f0d-4a8a-a013-4fe7031b197b)
