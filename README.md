@@ -9,18 +9,20 @@
 
 ## Установка 
 
-To use the module you need to read the instructions
 
-To use the module, you need to go to the cmd directory where the files are located and enter the following commands:
+Для использования модуля необходимо перейти в командной строке туда, где находится файл и ввести следующие команды:
 
-cd [directory]
-python setup.py build
-python setup.py install
+
++ cd [directory]
+
++ python setup.py build
+
++ python setup.py install
 
 ## Реализация
 ****
 ### Первая норма
->>(first_norm)
+*first_norm*
 
 Первая норма равна максимуму суммы модулей элементов в столбце.
 
@@ -33,7 +35,7 @@ python setup.py install
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/dbd83041-af45-461e-9af8-201f6b9d668a)
 
 ### Вторая норма(Евклидова)
->>(euclidean_norm)
+*euclidean_norm*
 
 Вторая(Евклидова) норма равна корню из суммы квадратов элементов матрицы.
 
@@ -47,7 +49,7 @@ python setup.py install
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/4e042e7c-d51e-42c0-9af3-63ed58513f1b)
 
 ### Норма бесконечность 
->>(infinity_norm)
+*infinity_norm*
 
 Первая норма равна максимуму суммы модулей элементов в строке.
 
@@ -58,7 +60,7 @@ python setup.py install
 > Фрагмент программы с реализацией:
 
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/cb5306d7-cf5c-4561-88e1-e91728095451)
- И
+ 
 ### Обусловленность
 > Формула
 
