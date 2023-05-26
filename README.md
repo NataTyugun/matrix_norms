@@ -34,7 +34,9 @@ python setup.py install
 
 ## Как вычисляются нормы и что они значат?
 ### Первая норма, `norm_first()`
-Первая норма равна максимуму суммы модулей элементов в строке, вычисляется по формуле: <img src="https://github.com/NataTyugun/matrix_norms/assets/99788525/a5a7b6a4-b627-4e6c-a620-a999d4b91e21" width="150" height="40">
+Первая норма равна максимуму суммы модулей элементов в строке, вычисляется по формуле: 
+
+<img src="https://github.com/NataTyugun/matrix_norms/assets/99788525/a5a7b6a4-b627-4e6c-a620-a999d4b91e21" width="150" height="40">
 
 Фрагмент программы с реализацией:
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/dbd83041-af45-461e-9af8-201f6b9d668a)
@@ -46,13 +48,19 @@ python setup.py install
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/4e042e7c-d51e-42c0-9af3-63ed58513f1b)
 
 ### Норма бесконечность, `norm_infinity()`
-Норма бесконечность равна максимуму суммы модулей элементов в столбце, вычисляется по формуле: <img src="https://github.com/NataTyugun/matrix_norms/assets/99788525/07967e4b-064c-4b39-be59-63fa2035d83a" width="150" height="40">
+Норма бесконечность равна максимуму суммы модулей элементов в столбце, вычисляется по формуле: 
+
+<img src="https://github.com/NataTyugun/matrix_norms/assets/99788525/07967e4b-064c-4b39-be59-63fa2035d83a" width="150" height="40">
 
 Фрагмент программы с реализацией:
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/cb5306d7-cf5c-4561-88e1-e91728095451)
 
 ### Обусловленность матрицы, `cond_1`, `cond_2`, `cond_3`
-Вычисляется как произведение норм исходной и обратной к ней матрице <img src="https://github.com/NataTyugun/matrix_norms/assets/99788525/ed623718-6e39-4151-8a72-11b369dc59b6" width="150" height="50">, с использованием любых норм, в нашем случа 1, 2 и 3, которые соответсьвуют нормам описанным выше.
+Вычисляется как произведение норм исходной и обратной к ней матрице 
+
+<img src="https://github.com/NataTyugun/matrix_norms/assets/99788525/ed623718-6e39-4151-8a72-11b369dc59b6" width="150" height="50">, 
+
+с использованием любых норм, в нашем случа 1, 2 и 3, которые соответсьвуют нормам описанным выше.
 
 ## Пример работы прогрраммы
 ![image](https://github.com/vvoroby/matrix/assets/99526918/11abd8c2-d278-43dd-b9f4-e432fe50adbb)
