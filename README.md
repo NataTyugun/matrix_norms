@@ -40,7 +40,7 @@ python setup.py install
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/dbd83041-af45-461e-9af8-201f6b9d668a)
 
 ### Вторая норма (Евклидова), `norm_euclidean()`
-Вторая норма, она же Евклидова равна сумме квадратов всех модулей элементов, вычисляется по формуле:<img src="https://github.com/NataTyugun/matrix_norms/assets/99788525/df391a44-e030-4fec-8bf3-d64546593e21" width="150" height="40">
+Вторая норма, она же Евклидова равна сумме квадратов всех модулей элементов.
 
 Фрагмент программы с реализацией: 
 ![image](https://github.com/NataTyugun/matrix_norms/assets/99788525/4e042e7c-d51e-42c0-9af3-63ed58513f1b)
